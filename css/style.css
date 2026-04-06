@@ -1,5 +1,6 @@
 /* menu */
 .menu {
+    font-size: 14px;
     top:0;
     z-index: 999;
     position:sticky;
@@ -48,4 +49,23 @@
 }
 body{
     overflow-x: hidden;
+}
+.footer{
+padding:200px;
+font-size: 14px;
+}
+.footer-container{
+    width: 100%;
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    display:flex;
+    margin:15px 0 20px 0;
+}
+.footer-container p{
+    width: 30%;
+    padding-right: 30px;
+    font-size: 14px;
+    line-height: 20px;
 }

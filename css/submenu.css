@@ -5,7 +5,7 @@
     background: #f5f5f5;
     padding: 15px 20px;
 }
-.sub-menu ul {
+.sub-menu li {
     display: flex;
     list-style: none;
     gap: 20px;
