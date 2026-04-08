@@ -172,10 +172,6 @@ font-size: 14px;
     transition: all 0.3s ease;
 }
 
-.new-row .new-card:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
 .new-row .new-card h2 {
     margin: 0;
     padding: 15px;
