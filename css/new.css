@@ -1,1 +1,57 @@
-/*css của bài báo */
+/* new */
+.content-text {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+.content-text h2 {
+    text-align: left;
+}
+.content-text p {
+    text-align: justify;
+}
+.content-text img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+.content-text h4 {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+}
+/* new card */
+.new-card {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.new-card a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: black;
+}
+.new-card img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0; 
+}
+.new-card .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.new-card h2 {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.4;
+}
+.new-card a:hover h2 {
+    color: red;
+}
